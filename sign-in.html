@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>ورود | دات استارت - مرجع آموزش تکنولوژی</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Favicon -->
+		<link
+			rel="shortcut icon"
+			type="image/x-icon"
+			href="assets/images/favicon.ico"
+		/>
+
+		<!-- CSS
+    ========================= -->
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/ds_bootstrap.min.css" />
+
+		<!-- Fonts CSS -->
+		<link rel="stylesheet" href="assets/css/bicon.min.css" />
+		<link rel="stylesheet" href="assets/css/ds-font-icon.css" />
+
+		<!-- Plugins CSS -->
+		<link rel="stylesheet" href="assets/css/plugins.css" />
+
+		<!-- Main Style CSS -->
+		<link rel="stylesheet" href="assets/css/style.css" />
+
+		<!-- dotStart Style CSS -->
+		<link rel="stylesheet" href="assets/css/dotstart.css" />
+
+		<!-- Modernizer JS -->
+		<script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+	</head>
+
+	<body>
+		<!-- Main Wrapper Start -->
+		<div class="main-wrapper" id="login">
+			<!-- Header-area start -->
+			<header class="header header-sticky">
+				<div class="header-area inner-header pt-3">
+					<div class="container">
+						<div class="row">
+							<div class="align-items-center col-md-10 col-lg-8 d-flex">
+								<!-- main-menu-area Start -->
+								<div class="main-menu">
+									<nav
+										class="m-0 main-navigation d-none d-md-flex "
+										style="display: block;"
+									>
+										<ul class="">
+											<li>
+												<a
+													class="btn btn-outline-primary active"
+													href="index.html"
+													>خانه</a
+												>
+												<ul class="px-3 py-2 sub-menu rounded">
+													<li><a href="index.html">صفحه اصلی 1</a></li>
+													<li><a href="index-2.html">صفحه اصلی 2</a></li>
+												</ul>
+											</li>
+											<li>
+												<a class="btn btn-outline-primary" href="about.html"
+													>درباره ما</a
+												>
+											</li>
+											<li>
+												<a class="btn btn-outline-primary" href="service.html"
+													>دوره ها</a
+												>
+												<ul class="px-3 py-2 sub-menu rounded">
+													<li>
+														<a href="service-2.html"
+															>آموزش صفر تا صد طراحی وب سایت</a
+														>
+													</li>
+													<li>
+														<a href="service-3.html"
+															>صفر تا صد کدنویسی سمت کاربر</a
+														>
+													</li>
+													<li>
+														<a href="service-3.html"
+															>صفر تا صد کدنویسی سمت سرور</a
+														>
+													</li>
+												</ul>
+											</li>
+
+											<li>
+												<a class="btn btn-outline-primary" href="blog.html"
+													>مقالات</a
+												>
+											</li>
+											<li>
+												<a class="btn btn-outline-primary" href="contact.html"
+													>تماس با ما</a
+												>
+											</li>
+										</ul>
+									</nav>
+									<div class="loginPart">
+										<span class="ml-1 text-primary">|</span>
+										<a href="#" class="btn btn-outline-secondary btn-sm">
+											<span class="font-8">ثبت نام</span>
+										</a>
+										<a href="#" class="btn btn-outline-secondary btn-sm">
+											<span class="font-8">ورود</span>
+										</a>
+										<a href="#" class="btn btn-outline-danger btn-sm d-none">
+											<span class="font-8">خروج</span>
+										</a>
+									</div>
+								</div>
+								<!--// main-menu-area End -->
+							</div>
+
+							<div class="col-md-2 col-lg-4">
+								<!-- logo Start -->
+								<div class="d-flex justify-content-end logo m-0">
+									<a href="index.html"
+										><img
+											src="assets/images/logo/lo.png"
+											alt="logo"
+											class="float-left"
+									/></a>
+								</div>
+								<!--// logo End -->
+							</div>
+
+							<div class="col">
+								<!-- mobile-menu start -->
+								<div class="mobile-menu d-block d-md-none"></div>
+								<!-- mobile-menu end -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Header-area end -->
+
+			<!-- breadcrumb-area start -->
+			<div class="breadcrumb-area mt--70 section-ptb">
+				<div class="container">
+					<div class="row">
+						<div class="mx-auto">
+							<h2 class="breadcrumb-title">فرم ورود</h2>
+							<!-- breadcrumb-list start -->
+							<ul class="breadcrumb-list text-center">
+								<li class="breadcrumb-item"><a href="index.html">خانه</a></li>
+								<li class="breadcrumb-item active">ورود</li>
+							</ul>
+							<!-- breadcrumb-list end -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- breadcrumb-area end -->
+
+			<!-- contact Area Start -->
+			<div class="contact-area section-ptb">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<!-- section-title Start -->
+							<div class="section-title">
+								<h4 class="text-center">فرم ورود</h4>
+							</div>
+							<!--// section-title End -->
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-8  ml-auto mr-auto">
+							<!-- contact-form-warp Start -->
+							<div class="contact-form-warp pt--60 section-pb">
+								<form id="contact-form" action="mail.php" method="post">
+									<div class="row">
+										<div class="col-12">
+											<div class="input-box">
+												<input
+													name="name"
+													placeholder="نام کاربری(ایمیل غبت شده)*"
+													type="text"
+												/>
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="input-box">
+												<input
+													type="password"
+													placeholder="شماره تماس*"
+													type="password"
+												/>
+											</div>
+										</div>
+									</div>
+									<div class="contact-submit-btn text-center mt-4">
+										<button
+											type="submit"
+											class="submit-btn border-radius  default-btn"
+										>
+											ورود
+										</button>
+										<p class="form-messege"></p>
+									</div>
+								</form>
+							</div>
+							<!-- contact-form-warp End -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- contact Area End -->
+
+			<!-- Footer Area Start -->
+			<footer class="footer-area footer-bg">
+				<!-- Footer-top Start -->
+				<div class="footer-top pt--50 pb--100">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3">
+								<!-- Footer-info Start -->
+								<div class="footer-info  mt--60">
+									<div class="footer-title">
+										<h3>آخرین پست های ما در اینستاگرام</h3>
+									</div>
+									<ul class="d-flex flex-wrap footer-list-instagram m-0 w-100">
+										<li>
+											<a href="#"
+												><img src="assets/images/instagram/ins-1.jpg" alt=""
+											/></a>
+										</li>
+										<li>
+											<a href="#"
+												><img src="assets/images/instagram/ins-2.jpg" alt=""
+											/></a>
+										</li>
+										<li>
+											<a href="#"
+												><img src="assets/images/instagram/ins-3.jpg" alt=""
+											/></a>
+										</li>
+										<li>
+											<a href="#"
+												><img src="assets/images/instagram/ins-4.jpg" alt=""
+											/></a>
+										</li>
+										<li>
+											<a href="#"
+												><img src="assets/images/instagram/ins-5.jpg" alt=""
+											/></a>
+										</li>
+										<li>
+											<a href="#"
+												><img src="assets/images/instagram/ins-6.jpg" alt=""
+											/></a>
+										</li>
+									</ul>
+								</div>
+								<!--// Footer-info End -->
+							</div>
+							<div class="col-md-3">
+								<!-- Footer-info Start -->
+								<div class="footer-info  mt--60">
+									<div class="footer-title">
+										<h3>تماس با ما</h3>
+									</div>
+									<ul class="footer-list">
+										<li>قم ، بلوارامین ، خیابان گلستان</li>
+										<li>
+											<a
+												href="mailto:info@dotstart.ir?subject = from-dotStart-member"
+											>
+												ارسال رایانامه به info@dotstart.ir</a
+											>
+										</li>
+										<li>+98 919 933 6764</li>
+										<li><a href="#">ارتباط از طریق فرم</a></li>
+									</ul>
+								</div>
+								<!--// Footer-info End -->
+							</div>
+							<div class="col-md-3">
+								<!-- Footer-info Start -->
+								<div class="footer-info  mt--60">
+									<div class="footer-title">
+										<h3>دوره ها</h3>
+									</div>
+									<ul class="footer-list">
+										<li><a href="#">صفر تا صد طراحی وب سایت</a></li>
+										<li><a href="#">صفر تا صد طراحی وب سایت</a></li>
+										<li><a href="#">صفر تا صد طراحی وب سایت</a></li>
+										<li><a href="#">صفر تا صد طراحی وب سایت</a></li>
+									</ul>
+								</div>
+								<!--// Footer-info End -->
+							</div>
+							<div class="col-md-3">
+								<!-- Footer-info Start -->
+								<div class="footer-info mt--40">
+									<div class="footer-logo">
+										<a href="#"
+											><img src="assets/images/logo/lo.png" alt=""
+										/></a>
+									</div>
+									<p>
+										گروه فنی و آموزشی دات استارت با سابقه ی 10 سال کار تخصصی در
+										حوزه آموزش و طراحی وب سایت ، ارائه دهنده و برگزارکننده دوره
+										های آموزشی حضوری و مجازی تکنولوژی های فناوری اطلاعات.
+									</p>
+
+									<ul class="d-flex justify-content-between social w-75">
+										<li>
+											<a href="#"><i class="demo-icon icon-instagram"></i></a>
+										</li>
+										<li>
+											<a href="#"
+												><i class="demo-icon icon-linkedin-circled"></i
+											></a>
+										</li>
+										<li>
+											<a href="#"><i class="demo-icon icon-telegram"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="demo-icon icon-pinterest-1"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="demo-icon icon-bale"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="demo-icon icon-soroush3"></i></a>
+										</li>
+									</ul>
+								</div>
+								<!--// Footer-info End -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--// Footer-top End -->
+
+				<!-- footer-bottom Start -->
+				<div class="footer-bottom">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="footer-bottom-inner text-center">
+									<p class="text-center">
+										&copy; تمامی حقوق این وب سایت متعلق به گروه آموزشی دات
+										استارت می باشد .
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--// footer-bottom End -->
+			</footer>
+			<!-- Footer Area End -->
+		</div>
+		<!-- Main Wrapper End -->
+
+		<!-- JS
+============================================ -->
+
+		<!-- jQuery JS -->
+		<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+		<!-- Popper JS -->
+		<script src="assets/js/popper.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- Plugins JS -->
+		<script src="assets/js/plugins.js"></script>
+		<!-- Ajax Mail -->
+		<script src="assets/js/ajax-mail.js"></script>
+		<!-- Main JS -->
+		<script src="assets/js/main.js"></script
+		><a
+			id="scrollUp"
+			href="#top"
+			style="position: fixed; z-index: 2147483647; display: block;"
+			><img src="assets/images/icon/up.png" alt="caret"
+		/></a>
+		<a
+			id="scrollUp"
+			href="#top"
+			style="position: fixed; z-index: 2147483647; display: block;"
+			><img src="assets/images/icon/up.png" alt="caret"
+		/></a>
+
+		<!-- google map js -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAq7MrCR1A2qIShmjbtLHSKjcEIEBEEwM"></script>
+		<script>
+			// When the window has finished loading create our google map below
+			google.maps.event.addDomListener(window, "load", init);
+
+			function init() {
+				// Basic options for a simple Google Map
+				// For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+				var mapOptions = {
+					// How zoomed in you want the map to start at (always required)
+					zoom: 10,
+
+					scrollwheel: false,
+
+					// The latitude and longitude to center the map (always required)
+					center: new google.maps.LatLng(23.761226, 90.40766), // New York
+
+					// How you would like to style the map.
+					// This is where you would paste any style found on Snazzy Maps.
+					styles: [
+						{
+							featureType: "administrative",
+							elementType: "labels.text.fill",
+							stylers: [
+								{
+									color: "#444444",
+								},
+							],
+						},
+						{
+							featureType: "landscape",
+							elementType: "all",
+							stylers: [
+								{
+									color: "#f2f2f2",
+								},
+							],
+						},
+						{
+							featureType: "poi",
+							elementType: "all",
+							stylers: [
+								{
+									visibility: "off",
+								},
+							],
+						},
+						{
+							featureType: "road",
+							elementType: "all",
+							stylers: [
+								{
+									saturation: -100,
+								},
+								{
+									lightness: 45,
+								},
+							],
+						},
+						{
+							featureType: "road.highway",
+							elementType: "all",
+							stylers: [
+								{
+									visibility: "simplified",
+								},
+							],
+						},
+						{
+							featureType: "road.arterial",
+							elementType: "labels.icon",
+							stylers: [
+								{
+									visibility: "off",
+								},
+							],
+						},
+						{
+							featureType: "transit",
+							elementType: "all",
+							stylers: [
+								{
+									visibility: "off",
+								},
+							],
+						},
+						{
+							featureType: "water",
+							elementType: "all",
+							stylers: [
+								{
+									color: "#314453",
+								},
+								{
+									visibility: "on",
+								},
+							],
+						},
+						{
+							featureType: "water",
+							elementType: "geometry.fill",
+							stylers: [
+								{
+									lightness: "-12",
+								},
+								{
+									saturation: "0",
+								},
+								{
+									color: "#FFC200",
+								},
+							],
+						},
+					],
+				};
+
+				// Get the HTML DOM element that will contain your map
+				// We are using a div with id="map" seen below in the <body>
+				var mapElement = document.getElementById("map");
+
+				// Create the Google Map using our element and options defined above
+				var map = new google.maps.Map(mapElement, mapOptions);
+
+				// Let's also add a marker while we're at it
+				var marker = new google.maps.Marker({
+					position: new google.maps.LatLng(23.761226, 90.420766),
+					map: map,
+					title: "Snazzy!",
+				});
+			}
+		</script>
+
+		<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+		<script>
+			window.ga = function() {
+				ga.q.push(arguments);
+			};
+			ga.q = [];
+			ga.l = +new Date();
+			ga("create", "UA-XXXXX-Y", "auto");
+			ga("send", "pageview");
+		</script>
+		<script
+			src="https://www.google-analytics.com/analytics.js"
+			async=""
+			defer=""
+		></script>
+
+		<div
+			style="position: absolute; left: 0px; top: -2px; height: 1px; overflow: hidden; visibility: hidden; width: 1px;"
+		>
+			<span
+				style="position: absolute; font-size: 300px; width: auto; height: auto; margin: 0px; padding: 0px; font-family: Roboto, Arial, sans-serif;"
+				>BESbswy</span
+			>
+		</div>
+
+		<div
+			style="position: absolute; left: 0px; top: -2px; height: 1px; overflow: hidden; visibility: hidden; width: 1px;"
+		>
+			<span
+				style="position: absolute; font-size: 300px; width: auto; height: auto; margin: 0px; padding: 0px; font-family: Roboto, Arial, sans-serif;"
+				>BESbswy</span
+			>
+		</div>
+	</body>
+</html>
