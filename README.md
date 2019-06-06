@@ -1,2 +1,1 @@
-# dotstart
 # public.start
